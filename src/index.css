@@ -1,0 +1,84 @@
+/* Small custom touches on top of PicoCSS */
+
+:root {
+  --pico-font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.app-header {
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+.app-header h1 {
+  margin-bottom: 0.25rem;
+}
+
+.app-header .subtitle {
+  color: var(--pico-muted-color);
+}
+
+/* Responsive grid of creator cards */
+.creator-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.creator-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0;
+}
+
+.creator-card .card-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: var(--pico-border-radius);
+  margin-bottom: 1rem;
+}
+
+.creator-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.creator-card .card-actions {
+  margin-top: auto;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.creator-card .card-actions a,
+.creator-card .card-actions button {
+  margin: 0;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.detail-image {
+  max-width: 100%;
+  border-radius: var(--pico-border-radius);
+  margin-bottom: 1.5rem;
+}
+
+.btn-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--pico-muted-color);
+}
