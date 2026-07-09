@@ -6,7 +6,7 @@ Submitted by: **Bhargav**
 creators. It supports full CRUD — create, read, update, and delete — backed by a
 Supabase database.
 
-Time spent: ~X hours spent in total
+Time spent: **5 hours** spent in total
 
 ## Required Features
 
