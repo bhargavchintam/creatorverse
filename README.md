@@ -82,12 +82,10 @@ creatorverse/
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented features:
+Here's a walkthrough of implemented features — viewing all creators, opening a
+creator's detail page, adding a creator, editing it, and deleting it:
 
-<!-- Replace the line below with your own GIF/Loom/YouTube link -->
-<!-- e.g. recorded with LiceCap (https://www.cockos.com/licecap/) -->
-
-`⏺ Add your walkthrough GIF or video link here`
+![Creatorverse CRUD walkthrough](./creatorverse-walkthrough.gif)
 
 ## Tech Stack
 
