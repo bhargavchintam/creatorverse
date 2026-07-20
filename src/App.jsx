@@ -6,6 +6,7 @@ import ShowCreators from './pages/ShowCreators'
 import ViewCreator from './pages/ViewCreator'
 import AddCreator from './pages/AddCreator'
 import EditCreator from './pages/EditCreator'
+import NotFound from './pages/NotFound'
 
 function App() {
   const [creators, setCreators] = useState([])
@@ -40,6 +41,7 @@ function App() {
     { path: '/creator/:id', element: <ViewCreator /> },
     { path: '/add', element: <AddCreator onSaved={fetchCreators} /> },
     { path: '/edit/:id', element: <EditCreator onSaved={fetchCreators} /> },
+    { path: '*', element: <NotFound /> },
   ])
 
   return (
